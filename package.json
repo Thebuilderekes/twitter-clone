@@ -1,0 +1,26 @@
+{
+  "name": "Twitter-clone",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000w\u0000i\u0000t\u0000t\u0000e\u0000r\u0000-\u0000c\u0000l\u0000o\u0000n\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thebuilderekes/twitter-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thebuilderekes/twitter-clone/issues"
+  },
+  "homepage": "https://github.com/Thebuilderekes/twitter-clone#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.12",
+    "tailwindcss": "^2.1.2",
+    "vite": "^2.2.3"
+  }
+}
