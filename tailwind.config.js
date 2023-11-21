@@ -1,9 +1,14 @@
 module.exports = {
-  mode: 'jit',
-  purge: [
-    './src/**/*.{html,js}',
-    './components/**/*.{html,js}',
-    './pages/**/*.{html,js}',
+  mode: "jit",
+  content: [
+    "./src/**/*.{html,js}",
+    "./components/**/*.{html,js}",
+    "./pages/**/*.{html,js}",
   ],
-  // ... other Tailwind CSS config options
-}
+  theme: {
+    screens: {
+      xs: "320px",
+      // => @media (min-width: 640px) { ... }
+    },
+  },
+};
